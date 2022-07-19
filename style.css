@@ -4,6 +4,14 @@ body {
     padding: 0px;
     background-color: #1F2937;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -15,7 +23,6 @@ body {
     padding: 14px;
     margin: 0px;
     font-weight: 900;
-    
 }
 
 .header ul {
@@ -36,7 +43,24 @@ body {
 }
 
 .footer {
- display: flex;
- justify-content: flex-end;
- align-items: center;
+    color: #3e588d;
+    flex-shrink: ;
+    display: flex;
+    
+    justify-content: center ;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 18px;
 }
+
+.sections {
+    display: flex;
+    max-width: ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
