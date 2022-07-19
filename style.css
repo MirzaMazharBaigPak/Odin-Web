@@ -48,7 +48,7 @@ body {
     justify-content: center ;
     align-items: center;
     background-color: #1F2937;
-    padding: 18px;
+    padding: 50px 0px;
 }
 
 .sections {
@@ -141,4 +141,45 @@ body {
     border-radius: 18px;  
     border-style: solid;
     background-color: #f9faf8;
+}
+
+.third-section {
+    background-color: #E5E7EB ;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+}
+
+#name {
+    font-style: normal;
+    font-size: 26px;
+    color: #1F2937;
+    padding: 0px;
+    font-weight: 550;
+    margin: 0px;
+}
+
+.testimonial-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonials {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#quote {
+    padding: 0px;
+    margin: 0px;
+    font-weight: lighter;
 }
