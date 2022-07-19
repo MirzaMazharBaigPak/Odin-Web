@@ -43,24 +43,61 @@ body {
 }
 
 .footer {
-    color: #3e588d;
+    color: #E5E7EB;
     flex-shrink: ;
     display: flex;
     
     justify-content: center ;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: #1F2937;
     padding: 18px;
 }
 
 .sections {
     display: flex;
-    max-width: ;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
     flex-shrink: 0;
 }
 
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0;
+}
 
+.hero-section .title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 1000;
+    margin: 2px;   
+}
+
+.hero-section p {
+    color: #E5E7EB;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.hero-section .call-to-action {
+    background-color: #3882F6;
+    padding: 6px 22px;
+    border-radius: 5px;
+    color: white;
+    border: #3882F6;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.hero-section-left {
+    max-width: 400px;
+}
+.hero-section-right {
+    margin-left: 18px;
+}
