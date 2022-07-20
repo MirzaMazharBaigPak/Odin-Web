@@ -49,6 +49,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     padding: 50px 0px;
+    font-size: larger;
 }
 
 .sections {
@@ -85,7 +86,7 @@ body {
     margin-top: 8px;
 }
 
-.hero-section .call-to-action {
+.hero-section .call-to-action-button {
     background-color: #3882F6;
     padding: 6px 22px;
     border-radius: 5px;
@@ -182,4 +183,53 @@ body {
     padding: 0px;
     margin: 0px;
     font-weight: lighter;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+    width: 100%;
+    padding: 150px 0px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 1000px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 40px 0px;
+    border-radius: 12px;
+}  
+
+.call-to-action-button#button-two {
+    background-color: #3882F6;
+    padding: 6px 32px;
+    border-radius: 5px;
+    color: white;
+    border: #f9faf8;
+    border: 2px;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.call-to-action-text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.call-to-action-text p {
+    font-size: medium;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
 }
