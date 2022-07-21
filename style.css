@@ -229,18 +229,18 @@ body {
 }
 
 #box-one {
-    background-image: url(/images/anna.webp) ;
+    background-image: url(images/anna.webp) ;
 }
 
 #box-two {
-    background-image: url(/images/elsa.webp);
+    background-image: url(images/elsa.webp);
 }
 
 #box-three {
-    background-image: url(/images/kristoff.webp);
+    background-image: url(images/kristoff.webp);
 }
 #box-four {
-    background-image: url(/images/olaf.webp);
+    background-image: url(images/olaf.webp);
 }
 .box {    
     background-repeat: no-repeat;
