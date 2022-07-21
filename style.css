@@ -211,3 +211,16 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+/* Version 2.0 */
+
+.hero-image {
+    max-width: 520px;
+    max-height: 292px;
+    border: #E5E7EB 3px solid;
+}
+.copyright {
+    color: orange; 
+    text-decoration:none
+}
+
