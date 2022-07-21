@@ -224,3 +224,29 @@ body {
     text-decoration:none
 }
 
+.name {
+    font: 600 24px roboto;
+}
+
+#box-one {
+    background-image: url(/images/anna.webp) ;
+}
+
+#box-two {
+    background-image: url(/images/elsa.webp);
+}
+
+#box-three {
+    background-image: url(/images/kristoff.webp);
+}
+#box-four {
+    background-image: url(/images/olaf.webp);
+}
+.box {    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.random-info {
+    align-items: flex-start;
+}
